@@ -46,10 +46,10 @@ abstract class BaseToolbarTitleFsmActivity: BaseActivityFragmentStack() {
 
     abstract fun getToolbarTitle(): String
 
-    fun isShowToolbarMenu() = false
+    open fun isShowToolbarMenu() = false
 
-    fun getToolbarMenuIconRes() = 0
+    open fun getToolbarMenuIconRes() = 0
 
-    protected fun onClickedToolbarMenu() = {}
+    open fun onClickedToolbarMenu() = {}
 
 }
