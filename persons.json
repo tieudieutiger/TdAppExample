@@ -1,0 +1,25 @@
+{
+  "persons": [
+    {
+      "personId": 1,
+      "name": "A",
+      "embeddings": [
+        1, 2, 3
+      ]
+    },
+    {
+      "personId": 2,
+      "name": "B",
+      "embeddings": [
+        1, 2, 3
+      ]
+    },
+    {
+      "personId": 3,
+      "name": "C",
+      "embeddings": [
+        1, 2, 3
+      ]
+    }
+  ]
+}
